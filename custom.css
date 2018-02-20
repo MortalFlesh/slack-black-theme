@@ -17,14 +17,14 @@ limitations under the License.
 :root {
    /* Modify these to change your theme colors: */
    --primary: #09F;
-   --text: #DDD;
-   --background: #111;
-   --background-elevated: #222;
+   --text: #CCC;
+   --background: #D20000;
+   --background-elevated: #080808;
 
    /* These should be less important: */
-   --background-hover: rgba(255, 255, 255, 0.1);
-   --background-light: #AAA;
-   --background-bright: #FFF;
+   --background-hover: rgba(102, 219, 239, 0.1);
+   --background-light: #D20000;
+   --background-bright: #66DBEF;
 
    --border-dim: #666;
    --border-bright: var(--primary);

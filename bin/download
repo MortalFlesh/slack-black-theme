@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js ./ssb-interop.js
+echo "Done"
