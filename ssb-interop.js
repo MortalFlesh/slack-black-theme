@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Then get its webviews
     let webviews = document.querySelectorAll('.TeamView webview');
 
-    const development = true;
+    const development = false;
 
     const cssPath = development
         ? 'https://raw.githubusercontent.com/MortalFlesh/slack-black-theme/feature/customizations/custom.css'
