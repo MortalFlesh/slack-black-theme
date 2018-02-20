@@ -47,10 +47,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Then get its webviews
     let webviews = document.querySelectorAll('.TeamView webview');
 
-    const development = false;
+    const development = true;
 
-    const cssPath = development && false
-        ? 'http://mf/slack-black-theme/custom.css'
+    const cssPath = development
+        ? 'https://raw.githubusercontent.com/MortalFlesh/slack-black-theme/feature/customizations/custom.css'
         : 'https://cdn.rawgit.com/widget-/slack-black-theme/master/custom.css';
 
     let cssPromise = fetch(cssPath).then(response => response.text());

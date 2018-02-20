@@ -46,7 +46,8 @@ h1, h2, h3, h4 {
 
 /* Team Picker */
 .TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {
-   background-color: var(--background) !important;
+   /*background-color: var(--background) !important;*/
+   background-color: #00ff00 !important;
    box-shadow: var(--background) 1px 1px 25px;
    color: var(--text);
    z-index: 1;
